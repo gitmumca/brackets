@@ -1,3 +1,4 @@
+
 module.exports = function check(str, bracketsConfig) {
 	
 	arr = bracketsConfig.reduce(function (arr, el) {arr.push(el[0]+el[1]); return arr}, []);
